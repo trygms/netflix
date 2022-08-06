@@ -1,0 +1,96 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.550),rgba(0, 0, 0, 0.8)), url('background_image.jpg');
+}
+
+.header img {
+    height: 45px;
+    width: 167px;
+    vertical-align: middle;
+}
+
+.text{
+    color: white;
+    text-align: center;
+    font-style: italic
+}
+
+.form{
+    background-color: rgba(0,0,0,.75);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 60px 68px 40px 68px;
+    margin: 30px 400px 30px 400px
+}
+
+.form .text1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.form .number {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.form .email {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.form .text2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.form .checkbox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.form .text3 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+
+.form .submit {
+    display: flex;
+    justify-content: center;
+    height: 25px;
+}
+
+.form .submit #submit:hover {
+    background-color: whitesmoke;
+    color: grey;
+}
+
+
+
+.form .text1 #text {
+    height: 40px;
+}
+
+.form .number #number {
+    height: 40px;
+}
+
+
+
+.form .email #email {
+    height: 40px;
+}
+
+.form .text3 #text3 {
+    height: 80px;
+}
